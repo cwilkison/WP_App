@@ -67,7 +67,7 @@ footer .footer_copyright {
 
 .spacer {
   width: 100%;
-  height: 95px;
+  height: 92px;
 }
 
 /*============================
@@ -134,4 +134,60 @@ footer .footer_copyright {
   width: 48%;
   height: 48%;
   border-radius: 15%;
+}
+
+.clubImg {
+  width: 25%;
+  padding: 5% 2%;
+}
+
+.contentParagraph {
+  font-size: 1.5rem;
+}
+
+#timSig {
+  padding: 2% 0;
+}
+
+/* .bg-transparent {
+  background-image: url("../images/tennisheader2.jpg");
+  background-size: cover;
+} */
+
+/*====================
+        Bio    
+======================*/
+
+.mikeBio {
+  font-size: 1.5rem;
+}
+
+#mikePhoto {
+  border-radius: 50%;
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2%;
+}
+
+.timBio {
+  font-size: 1.5rem;
+}
+
+#timPhoto {
+  border-radius: 50%;
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2%;
+}
+
+#borderBio {
+  border-top: 3px solid black;
+  width: 75%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }

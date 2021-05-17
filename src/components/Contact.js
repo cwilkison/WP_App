@@ -88,7 +88,6 @@ function Contact(props) {
               id="message"
               name="message"
               as="textarea"
-              rows="3"
               value={form.message || ""}
               onChange={onChange}
               rows="5"

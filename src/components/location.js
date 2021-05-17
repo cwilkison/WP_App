@@ -8,6 +8,7 @@ const Location = () => {
         width="100%"
         height="500px"
         frameBorder="0"
+        title="WilksonPartnersLocation"
         allowFullScreen
       ></iframe>
       <div className="location_tag">

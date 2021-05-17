@@ -11,7 +11,6 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import { render } from "@testing-library/react";
 
 class App extends React.Component {
   constructor(props) {
@@ -30,7 +29,7 @@ class App extends React.Component {
         title: "Let's Talk",
       },
       bio: {
-        title: "Who We Are",
+        title: "Meet the Team",
       },
     };
   }
