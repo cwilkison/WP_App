@@ -4,21 +4,21 @@ import Content from "./Content";
 
 import suncity2Image from "../Resources/images/sun_city2.jpg";
 import suncityImage from "../Resources/images/sun_city.jpg";
-import timSig from "../Resources/images/coreLogo.jpg";
-import brightleaf from "../Resources/images/blblack.jpg";
-import palisades from "../Resources/images/palisadesblack.jpg";
+import timSig from "../Resources/images/coreLogo.png";
+import brightleaf from "../Resources/images/blblack.png";
+import palisades from "../Resources/images/palisadesblack.png";
 import suncityLogo from "../Resources/images/suncitylogo.png";
-import twFacility from "../Resources/images/twFacility.jpg";
+import twFacility from "../Resources/images/twFacility.png";
 
-const divStyle = {
-  backgroundImage: 'url("../Resources/images/tennisheader2.jpg")',
-  backgroundSize: "cover",
-};
+// const divStyle = {
+//   backgroundImage: 'url("../Resources/images/tennisheader2.jpg")',
+//   backgroundSize: "cover",
+// };
 
 function AboutPage(props) {
   return (
     <div>
-      <Hero style={divStyle} title={props.title} />
+      <Hero title={props.title} />
 
       <Content>
         <div className="contentParagraph">
@@ -75,54 +75,55 @@ function AboutPage(props) {
             alt="bright leaf club construction"
           />
         </div>
-        <hr id="borderBio" />
-        <div className="clubs">
-          <a
-            href="http://www.thepalisadescc.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="clubImg"
-              src={palisades}
-              alt="palisades logo + link"
-            />
-          </a>
-          <a
-            href="https://www.brightleafclub.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="clubImg"
-              src={brightleaf}
-              alt="brightleaf logo + link"
-            />
-          </a>
-          <a
-            href="https://www.suncitycharlotte.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="clubImg"
-              src={suncityLogo}
-              alt="suncity logo + link"
-            />
-          </a>
-          <a
-            href="http://timwilkisonacademies.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="clubImg"
-              src={twFacility}
-              alt="TW Facilities logo + link"
-            />
-          </a>
-        </div>
       </Content>
+
+      <hr id="borderBio" />
+      <div className="clubs">
+        <a
+          href="http://www.thepalisadescc.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="clubImg"
+            src={palisades}
+            alt="palisades logo + link"
+          />
+        </a>
+        <a
+          href="https://www.brightleafclub.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="clubImg"
+            src={brightleaf}
+            alt="brightleaf logo + link"
+          />
+        </a>
+        <a
+          href="https://www.suncitycharlotte.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="clubImg"
+            src={suncityLogo}
+            alt="suncity logo + link"
+          />
+        </a>
+        <a
+          href="http://timwilkisonacademies.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="clubImg"
+            src={twFacility}
+            alt="TW Facilities logo + link"
+          />
+        </a>
+      </div>
     </div>
   );
 }
