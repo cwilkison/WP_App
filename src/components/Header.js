@@ -21,13 +21,7 @@ class Header extends Component {
         <ToolBar style={{ display: "flex" }}>
           <div style={{ flexGrow: 1 }}>
             <div className="header_logo">
-              <img
-                src={logo}
-                alt="logo"
-                link={true}
-                width="230px"
-                height="70px"
-              />
+              <img src={logo} alt="logo" width="230px" height="70px" />
             </div>
           </div>
           <Link to="/">

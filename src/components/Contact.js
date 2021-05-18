@@ -96,17 +96,10 @@ function Contact(props) {
           <Button className="d-inline-block" variant="primary" type="submit">
             Send
           </Button>
-
-          {form.emailSent === true && (
-            <p className="d-inline success-msg">Email Sent</p>
-          )}
-          {form.emailSent === false && (
-            <p className="d-inline error-msg">Email Not Sent</p>
-          )}
         </Form>
         <ContactInfo />
       </Content>
-      <div class="spacer"></div>
+      <div className="spacer"></div>
       <Location />
     </div>
   );

@@ -43,15 +43,15 @@ class App extends React.Component {
             <Home />
           </Route>
           <Route exact path="/about">
-            <div class="spacer"></div>
+            <div className="spacer"></div>
             <About title={this.state.about.title} />
           </Route>
           <Route exact path="/bio">
-            <div class="spacer"></div>
+            <div className="spacer"></div>
             <Bio title={this.state.bio.title} />
           </Route>
           <Route exact path="/contact">
-            <div class="spacer"></div>
+            <div className="spacer"></div>
             <Contact title={this.state.contact.title} />
           </Route>
           <Footer />
