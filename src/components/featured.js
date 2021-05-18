@@ -8,19 +8,17 @@ const Featured = () => {
       lineOne: "Tennis",
       lineTwo: "Quality Houses",
       lineTitle: "Build",
-      linkTo: "/",
     },
     {
       img: "https://www.atptour.com/-/media/images/news/2021/05/10/17/34/sinner-rome-monday.jpg",
       lineOne: "Tennis2",
       lineTwo: "Quality Houses2",
       lineTitle: "Build",
-      linkTo: "/",
     },
   ];
 
   return (
-    <div classname="featured_container">
+    <div className="featured_container">
       <Carrousel items={corrouselItems} />
     </div>
   );

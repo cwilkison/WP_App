@@ -25,7 +25,6 @@ class Header extends Component {
                 src={logo}
                 alt="logo"
                 link={true}
-                linkTo="/"
                 width="230px"
                 height="70px"
               />
