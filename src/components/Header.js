@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import AppBar from "@material-ui/core/AppBar";
-import ToolBar from "@material-ui/core/ToolBar";
+import ToolBar from "@material-ui/core/Toolbar";
 import Button from "@material-ui/core/Button";
 import logo from "../Resources/images/twFacility.png";
 
