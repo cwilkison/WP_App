@@ -29,7 +29,11 @@ function Bio(props) {
         </div>
         <hr id="borderBio" />
         <div className="timBio">
-          <img id="timPhoto" src={TimPhoto} alt="tim wilkison playing tennis" />
+          <img
+            id="timPhoto"
+            src={TimPhoto}
+            alt="ntim wilkison playing tennis"
+          />
           <p>
             Tim Wilkison played professional tennis for over 25 years on the ATP
             Tour and the Senior Tennis Professional Tour.
