@@ -10,6 +10,10 @@ body {
         FEATURED IMAGE
 ==============================*/
 
+.featured_action {
+  font-family: "Meddon", cursive;
+}
+
 .featured_container {
   background: hsl(207, 57%, 67%);
 }
@@ -30,7 +34,6 @@ body {
   background: #82828287;
   color: #ffffff;
   padding: 0px 20px;
-  text-transform: uppercase;
   display: table;
 }
 

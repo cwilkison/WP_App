@@ -27,15 +27,17 @@ var styles = {
     position: "fixed",
     width: "30%",
     height: "50%",
+    paddingTop: "8%",
   },
   bmMenu: {
     background: "rgba(0, 0, 0, 0.5)",
-    padding: "2em",
-    fontSize: "1em",
+    padding: ".5em",
+    fontSize: "1.5em",
   },
   bmItem: {
     display: "inline-block",
     outline: "none",
+    padding: "2% 0",
   },
   bmOverlay: {
     background: "rgba(0, 0, 0, 0.0)",
@@ -56,7 +58,7 @@ function Header() {
 
   return (
     <div className="nav-div">
-      {windowSize >= 480 ? (
+      {windowSize >= 768 ? (
         <>
           <AppBar
             position="fixed"
@@ -67,7 +69,7 @@ function Header() {
               borderBottom: "2px solid #00285e",
             }}
           >
-            <ToolBar style={{ display: "flex" }}>
+            <ToolBar style={{ display: "flex", padding: "0 15% 0 0" }}>
               <div style={{ flexGrow: 1 }}>
                 <div className="header_logo">
                   <img src={logo} alt="logo" width="230px" height="70px" />
@@ -109,6 +111,11 @@ function Header() {
               borderBottom: "2px solid #00285e",
             }}
           >
+            <div style={{ flexGrow: 1 }}>
+              <div className="header_logo">
+                <img src={logo} alt="logo" width="75%" height="75%" />
+              </div>
+            </div>
             <Menu
               right
               isOpen={menuOpen}
