@@ -16,7 +16,7 @@ const Featured = () => {
       lineTitle: "Build",
     },
     {
-      img: "https://lh3.googleusercontent.com/at67sSMETIzv_dLX67P1Q3VIKD00eburQZAYGd-Q9N-3f3TXpW6iaiBQxpRy59a2PWQaI9ujNGEax6dHWVI7orAENidrr1040G-8aeBoA2qyzCfEYHzwK2W2j4DShLcGK05F5hAF8Q=w2400",
+      img: "https://lh3.googleusercontent.com/oTaan6G1XcqnuKzcoJbSPxhAwqUiyG-eHkRuCEX9hcj2-U2e2w1m9SeOBEKiBO7inL8wxnWvi6BzS5SDAw32a4lELN1rNYR03F9E3WEaMg88DYxue6Ja9DGViP1qdaPQRXxuJ2UECg=w2400",
       lineOne: "Tennis2",
       lineTwo: "Quality Houses2",
       lineTitle: "Build",
