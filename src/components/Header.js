@@ -24,18 +24,28 @@ class Header extends Component {
               <img src={logo} alt="logo" width="230px" height="70px" />
             </div>
           </div>
-          <Link to="/">
-            <Button color="inherit">Home</Button>
-          </Link>
-          <Link to="/about">
-            <Button color="inherit">About</Button>
-          </Link>
-          <Link to="/bio">
-            <Button color="inherit">Bio</Button>
-          </Link>
-          <Link to="/contact">
-            <Button color="inherit">Contact</Button>
-          </Link>
+          <div id="headerLinks">
+            <Link to="/" style={{ textDecoration: "none" }}>
+              <Button className="headerButton" color="inherit">
+                Home
+              </Button>
+            </Link>
+            <Link to="/about" style={{ textDecoration: "none" }}>
+              <Button className="headerButton" color="inherit">
+                About
+              </Button>
+            </Link>
+            <Link to="/bio" style={{ textDecoration: "none" }}>
+              <Button className="headerButton" color="inherit">
+                Bio
+              </Button>
+            </Link>
+            <Link to="/contact" style={{ textDecoration: "none" }}>
+              <Button className="headerButton" color="inherit">
+                Contact
+              </Button>
+            </Link>
+          </div>
         </ToolBar>
       </AppBar>
     );
