@@ -15,7 +15,7 @@ function Bio(props) {
           <p>
             Mike Boston established his home in Charlotte 25 years ago. He comes
             from a high level tennis background playing for The College of
-            Charleston, SC and for a shot time on the Pro satellite tour where
+            Charleston, SC and for a short time on the Pro satellite tour where
             he established many friends in that world before moving into
             coaching and management level.
           </p>
