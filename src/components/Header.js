@@ -4,7 +4,6 @@ import ToolBar from "@material-ui/core/Toolbar";
 import Button from "@material-ui/core/Button";
 import logo from "../Resources/images/twFacility.png";
 import { slide as Menu } from "react-burger-menu";
-import { NavLink } from "react-router-dom";
 
 import { Link } from "react-router-dom";
 
