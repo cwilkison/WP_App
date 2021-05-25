@@ -111,30 +111,32 @@ function Header() {
               borderBottom: "2px solid #00285e",
             }}
           >
-            <div style={{ flexGrow: 1 }}>
-              <div className="header_logo">
-                <img src={logo} alt="logo" width="75%" height="75%" />
+            <ToolBar>
+              <div style={{ flexGrow: 1 }}>
+                <div className="header_logo">
+                  <img src={logo} alt="logo" width="75%" height="75%" />
+                </div>
               </div>
-            </div>
-            <Menu
-              right
-              isOpen={menuOpen}
-              onStateChange={(state) => stateChangeHandler(state)}
-              styles={styles}
-            >
-              <Link to="/" onClick={toggleMenu}>
-                Home
-              </Link>
-              <Link to="/about" onClick={toggleMenu}>
-                About
-              </Link>
-              <Link to="/bio" onClick={toggleMenu}>
-                Bio
-              </Link>
-              <Link to="/contact" onClick={toggleMenu}>
-                Contact
-              </Link>
-            </Menu>
+              <Menu
+                right
+                isOpen={menuOpen}
+                onStateChange={(state) => stateChangeHandler(state)}
+                styles={styles}
+              >
+                <Link to="/" onClick={toggleMenu}>
+                  Home
+                </Link>
+                <Link to="/about" onClick={toggleMenu}>
+                  About
+                </Link>
+                <Link to="/bio" onClick={toggleMenu}>
+                  Bio
+                </Link>
+                <Link to="/contact" onClick={toggleMenu}>
+                  Contact
+                </Link>
+              </Menu>
+            </ToolBar>
           </AppBar>
         </>
       )}
