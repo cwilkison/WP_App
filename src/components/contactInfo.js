@@ -1,19 +1,28 @@
 import React from "react";
 
-export default function contactInfo() {
+export default function ContactInfo() {
   return (
-    <div className="contact-section">
-      <div className="contact-info">
-        <i className="fas fa-map-marker-alt"></i>Charlotte, NC
+    <div className="contactSection">
+      <div className="contactRow">
+        <i class="fas fa-phone fa-7x"></i>
+        <h2 className="contactInfo">PHONE</h2>
+        <p className="contactDetails">(704) 609-0904</p>
       </div>
-      <div className="contact-info">
-        <i className="fas fa-envelope"></i>wilkisontim@gmail.com
+      <div className="contactRow">
+        <i class="fas fa-map-marker-alt fa-7x"></i>
+        <h2 className="contactInfo">ADDRESS</h2>
+        <p className="contactDetails">
+          5903 Laurium Road
+          <br />
+          Charlotte, NC
+          <br />
+          28226
+        </p>
       </div>
-      <div className="contact-info">
-        <i className="fas fa-phone"></i>(704) 609-0904
-      </div>
-      <div className="contact-info">
-        <i className="fas fa-clock"></i>Mon - Fri 8:00 AM to 5:00 PM
+      <div className="contactRow">
+        <i class="fas fa-envelope fa-7x"></i>
+        <h2 className="contactInfo">EMAIL</h2>
+        <p className="contactDetails">wilkison.tim@gmail.com</p>
       </div>
     </div>
   );

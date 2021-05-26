@@ -97,9 +97,8 @@ function Contact(props) {
             Send
           </Button>
         </Form>
-        <ContactInfo />
       </Content>
-      <div className="spacer"></div>
+      <ContactInfo />
       <Location />
     </div>
   );

@@ -94,27 +94,63 @@ footer .footer_copyright {
         CONTACT
 ==============================*/
 
-.success-msg {
-  color: #57a773;
-  padding: 10px 15px;
-}
-
-.error-msg {
-  color: #ee6352;
-  padding: 10px 15px;
-}
-
-.contact-section {
-  width: 100%;
+.contactSection {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
-  padding-top: 5%;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 75%;
+  margin: 0 auto;
+  padding: 5% 0;
+  text-align: center;
 }
 
-.contact-info {
-  padding: 0 2%;
+.contactInfo {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.contactDetails {
+  font-size: 2rem;
+}
+
+.fa-phone:hover {
+  color: white;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.fa-map-marker-alt:hover {
+  color: white;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.fa-envelope:hover {
+  color: white;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contactSection {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .contactDetails {
+    font-size: 1.5rem;
+  }
 }
 /*====================
         LOCATION    
