@@ -17,7 +17,7 @@ import twFacility from "../Resources/images/twFacility.png";
 
 function AboutPage(props) {
   return (
-    <div>
+    <div id="aboutMediaQuery">
       <Hero title={props.title} />
 
       <Content>
@@ -65,7 +65,7 @@ function AboutPage(props) {
         <hr id="borderBio" />
         <div className="aboutContainer">
           <img
-            className="aboutImages"
+            className="aboutImages aboutImagesOne"
             src={suncity2Image}
             alt="tim posing at sun city tennis courts"
           />

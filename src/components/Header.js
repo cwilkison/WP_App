@@ -25,7 +25,7 @@ var styles = {
   bmMenuWrap: {
     zIndex: "25",
     position: "fixed",
-    width: "30%",
+    width: "28%",
     height: "50%",
     paddingTop: "8%",
   },
@@ -91,7 +91,7 @@ function Header() {
                     Bio
                   </Button>
                 </Link>
-                <Link to="/contact" style={{ textDecoration: "none" }} g>
+                <Link to="/contact" style={{ textDecoration: "none" }}>
                   <Button className="headerButton" color="inherit">
                     Contact
                   </Button>

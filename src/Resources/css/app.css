@@ -7,11 +7,19 @@ body {
 }
 
 /*============================
+        HOME
+==============================*/
+
+/*============================
         FEATURED IMAGE
 ==============================*/
 
 .featured_action {
-  font-family: "Meddon", cursive;
+  /* font-family: "Meddon", cursive; */
+  /* font-family: "Italianno", cursive; */
+  /* font-family: "Parisienne", cursive; */
+  /* font-family: "Petit Formal Script", cursive; */
+  font-family: "Tangerine", cursive;
 }
 
 .featured_container {
@@ -26,8 +34,8 @@ body {
 
 .featured_container .featured_action {
   position: absolute;
-  top: 45%;
-  left: 8%;
+  top: 15%;
+  left: 20%;
 }
 
 .featured_container .featured_action .tag {
@@ -40,12 +48,13 @@ body {
 .featured_container .featured_action .tag.title {
   font-size: 70px;
   font-weight: 700;
+  padding-top: -40vh;
 }
 
 .featured_container .featured_action .tag.low_title {
   font-size: 50px;
   font-weight: 300;
-  margin-top: 10px;
+  margin-top: 55%;
 }
 
 /*====================
@@ -206,6 +215,36 @@ footer .footer_copyright {
   padding: 2% 0;
 }
 
+@media only screen and (max-width: 500px) {
+  #aboutMediaQuery {
+    overflow-x: hidden !important;
+  }
+
+  .clubs {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden !important;
+  }
+
+  a {
+    width: 250%;
+    height: 250%;
+    overflow-x: hidden !important;
+    padding-left: 22%;
+  }
+
+  .aboutContainer {
+    display: flex;
+    flex-direction: column;
+    width: 150%;
+    padding-left: 18%;
+    overflow-x: hidden !important;
+  }
+
+  .aboutImagesOne {
+    margin-bottom: 5%;
+  }
+}
 /* .bg-transparent {
   background-image: url("../images/tennisheader2.jpg");
   background-size: cover;
