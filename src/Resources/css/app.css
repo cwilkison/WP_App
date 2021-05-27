@@ -245,10 +245,6 @@ footer .footer_copyright {
     margin-bottom: 5%;
   }
 }
-/* .bg-transparent {
-  background-image: url("../images/tennisheader2.jpg");
-  background-size: cover;
-} */
 
 /*====================
         Bio    
@@ -290,4 +286,14 @@ footer .footer_copyright {
   margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media only screen and (max-width: 500px) {
+  #mikePhoto {
+    width: 50%;
+  }
+
+  #timPhoto {
+    width: 50%;
+  }
 }
