@@ -15,10 +15,6 @@ body {
 ==============================*/
 
 .featured_action {
-  /* font-family: "Meddon", cursive; */
-  /* font-family: "Italianno", cursive; */
-  /* font-family: "Parisienne", cursive; */
-  /* font-family: "Petit Formal Script", cursive; */
   font-family: "Tangerine", cursive;
 }
 
@@ -59,7 +55,7 @@ body {
   margin-left: 12%;
 }
 .featured_action {
-  width: 100%;
+  /* width: 100%; */
   margin-left: 5%;
 }
 
@@ -74,7 +70,7 @@ body {
   .featured_container .featured_action .tag.low_title {
     font-size: 3.5em;
     font-weight: 300;
-    margin-top: 25%;
+    margin-top: 40%;
   }
 
   .featured_action {
@@ -93,7 +89,7 @@ body {
   .featured_container .featured_action .tag.low_title {
     font-size: 3em;
     font-weight: 300;
-    margin-top: 30%;
+    margin-top: 70%;
     margin-left: 20%;
   }
 
