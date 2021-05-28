@@ -74,7 +74,7 @@ body {
   .featured_container .featured_action .tag.low_title {
     font-size: 3.5em;
     font-weight: 300;
-    margin-top: 40%;
+    margin-top: 25%;
   }
 
   .featured_action {
@@ -93,7 +93,7 @@ body {
   .featured_container .featured_action .tag.low_title {
     font-size: 3em;
     font-weight: 300;
-    margin-top: 50%;
+    margin-top: 30%;
     margin-left: 20%;
   }
 
