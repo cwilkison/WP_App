@@ -55,8 +55,12 @@ body {
 .featured_container .featured_action .tag.low_title {
   font-size: 4em;
   font-weight: 300;
-  margin-top: 55%;
+  margin-top: 30%;
   margin-left: 12%;
+}
+.featured_action {
+  width: 100%;
+  margin-left: 5%;
 }
 
 @media only screen and (max-width: 1025px) and (min-width: 770px) {
