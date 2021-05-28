@@ -80,6 +80,7 @@ function AboutPage(props) {
       <hr id="borderBio" />
       <div className="clubs">
         <a
+          className="clubsA"
           href="http://www.thepalisadescc.com/"
           target="_blank"
           rel="noreferrer"
@@ -91,6 +92,7 @@ function AboutPage(props) {
           />
         </a>
         <a
+          className="clubsA"
           href="https://www.brightleafclub.com/"
           target="_blank"
           rel="noreferrer"
@@ -102,6 +104,7 @@ function AboutPage(props) {
           />
         </a>
         <a
+          className="clubsA"
           href="https://www.suncitycharlotte.com/"
           target="_blank"
           rel="noreferrer"
@@ -113,6 +116,7 @@ function AboutPage(props) {
           />
         </a>
         <a
+          className="clubsA"
           href="http://timwilkisonacademies.com/"
           target="_blank"
           rel="noreferrer"

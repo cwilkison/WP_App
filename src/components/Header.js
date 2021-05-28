@@ -20,24 +20,24 @@ var styles = {
     background: "white",
   },
   bmBurgerBarsHover: {
-    // background: '#a90000',
+    background: "#a90000",
   },
   bmMenuWrap: {
     zIndex: "25",
     position: "fixed",
-    width: "28%",
-    height: "50%",
-    paddingTop: "8%",
+    width: "35%",
+    height: "35%",
   },
   bmMenu: {
+    marginTop: "47%",
     background: "rgba(0, 0, 0, 0.5)",
-    padding: ".5em",
+    padding: "1em 2em 1em 1em",
     fontSize: "1.5em",
   },
   bmItem: {
     display: "inline-block",
     outline: "none",
-    padding: "2% 0",
+    paddingTop: "10%",
   },
   bmOverlay: {
     background: "rgba(0, 0, 0, 0.0)",

@@ -29,13 +29,14 @@ body {
 .featured_container .featured_image {
   position: relative;
   background-size: cover !important;
-  background-position: center left !important;
+  /* background-position: center left !important; */
+  background-position: center center !important;
 }
 
 .featured_container .featured_action {
   position: absolute;
   top: 15%;
-  left: 20%;
+  left: 25%;
 }
 
 .featured_container .featured_action .tag {
@@ -46,15 +47,109 @@ body {
 }
 
 .featured_container .featured_action .tag.title {
-  font-size: 70px;
+  font-size: 8em;
   font-weight: 700;
   padding-top: -40vh;
 }
 
 .featured_container .featured_action .tag.low_title {
-  font-size: 50px;
+  font-size: 5em;
   font-weight: 300;
   margin-top: 55%;
+  margin-left: 12%;
+}
+
+@media only screen and (max-width: 1025px) {
+  .featured_container .featured_action .tag.title {
+    font-size: 4.5em;
+    font-weight: 700;
+    padding-top: -40vh;
+    margin-left: 12%;
+  }
+
+  .featured_container .featured_action .tag.low_title {
+    font-size: 3.5em;
+    font-weight: 300;
+    margin-top: 60%;
+  }
+
+  .featured_action {
+    width: 100%;
+    margin-left: -10%;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .featured_container .featured_action .tag.title {
+    font-size: 5em;
+    font-weight: 700;
+    padding-top: -40vh;
+  }
+
+  .featured_container .featured_action .tag.low_title {
+    font-size: 3em;
+    font-weight: 300;
+    margin-top: 70%;
+    margin-left: 20%;
+  }
+
+  .featured_action {
+    width: 100%;
+    margin-left: -23%;
+  }
+}
+
+@media only screen and (max-width: 500px) and (min-width: 400px) {
+  .featured_container .featured_action .tag.title {
+    font-size: 3em;
+    font-weight: 700;
+    padding-top: -40vh;
+  }
+
+  .featured_container .featured_action .tag.low_title {
+    font-size: 3em;
+    font-weight: 300;
+    margin-top: 70%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  .featured_action {
+    padding-top: 10%;
+    width: 100%;
+    margin-left: -28%;
+  }
+
+  .featured_image {
+    height: 60%;
+  }
+}
+
+@media only screen and (max-width: 399px) and (min-width: 100px) {
+  .featured_container .featured_action .tag.title {
+    font-size: 3em;
+    font-weight: 700;
+    padding-top: -40vh;
+    text-align: center;
+  }
+
+  .featured_container .featured_action .tag.low_title {
+    font-size: 3em;
+    font-weight: 300;
+    margin-top: 70%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  .featured_action {
+    padding-top: 10%;
+    width: 100%;
+    margin-left: -28%;
+  }
+
+  .featured_image {
+    height: 40%;
+  }
 }
 
 /*====================
@@ -226,13 +321,12 @@ footer .footer_copyright {
     overflow-x: hidden !important;
   }
 
-  a {
+  .clubsA {
     width: 250%;
     height: 250%;
     overflow-x: hidden !important;
     padding-left: 22%;
   }
-
   .aboutContainer {
     display: flex;
     flex-direction: column;
