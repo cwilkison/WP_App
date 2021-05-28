@@ -87,6 +87,7 @@ body {
     font-size: 5em;
     font-weight: 700;
     padding-top: -40vh;
+    margin-left: 10%;
   }
 
   .featured_container .featured_action .tag.low_title {
@@ -98,7 +99,7 @@ body {
 
   .featured_action {
     width: 100%;
-    margin-left: -23%;
+    margin-left: -13%;
   }
 }
 
@@ -154,6 +155,12 @@ body {
 
   .featured_image {
     height: 50%;
+  }
+}
+
+@media only screen and (width: 768px) and (height: 1024px) {
+  .featured_image {
+    height: 100%;
   }
 }
 
