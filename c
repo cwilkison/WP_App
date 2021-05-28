@@ -1,0 +1,174 @@
+[33mcommit 43313de6d10e93afbe42f31b77154d9d8d493141[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Fri May 28 13:11:06 2021 -0400
+
+    responsive good, need ipad
+
+[33mcommit 7ee1b28bd704ac11fc073c00d239db3629a46cf2[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Fri May 28 13:07:00 2021 -0400
+
+    media queries for main view
+
+[33mcommit 4bc4f84c90f34bb3db58304bd17c70867a7e9dcc[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Fri May 28 12:57:53 2021 -0400
+
+    media queries good, except full screen
+
+[33mcommit 8438f1898402cc8aeb27a52d6eedd042348092b6[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Fri May 28 10:43:34 2021 -0400
+
+    css fixed
+
+[33mcommit e61d3cf155cab6071eb93222ece85af7e208d674[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Fri May 28 10:37:03 2021 -0400
+
+    adding css
+
+[33mcommit 437ca13a98583708a8f811d1bce792242318d096[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Fri May 28 10:20:59 2021 -0400
+
+    changed 300 - 100 featurd image bigger
+
+[33mcommit 0f40bcad10b1183c936430e9063be3dc7fde63cd[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Fri May 28 09:56:07 2021 -0400
+
+    responsiveness done, need to add functionaity to contact page, going to host on AWS now
+
+[33mcommit 5945ca8d5eb3efa6debf8818f505c1c2850136a6[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Thu May 27 09:41:48 2021 -0400
+
+    Bio page finished
+
+[33mcommit f2b7d583b567e8a1450a41c4e68d655af37b5c0f[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Thu May 27 09:37:34 2021 -0400
+
+    about us page finished
+
+[33mcommit 92b5b2062619e506aa4d99798d9ad7c9ba81ab12[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Wed May 26 10:03:05 2021 -0400
+
+    bio page finished
+
+[33mcommit 6185d47f08635a3fffd0014e51c20e26c0517185[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Wed May 26 09:33:39 2021 -0400
+
+    contact page good, only need functionality added
+
+[33mcommit 12ea9157c2ebc4cd33ea1788c03160e588084103[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Tue May 25 16:14:46 2021 -0400
+
+    hamburger nav working
+
+[33mcommit 8a2a9aa86c7daa973df32cc1ef025ca8e919e5e0[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Tue May 25 14:04:29 2021 -0400
+
+    progress on hamburger menu
+
+[33mcommit 2f3763e436a524469647504137ef5de94d5bf4f6[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Tue May 25 12:29:48 2021 -0400
+
+    fixing errors
+
+[33mcommit 3a02c1648fb1173d8fb2bf0f31343940c9be88ce[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Tue May 25 12:26:59 2021 -0400
+
+    responsive navbar menu boilerplate
+
+[33mcommit fce2373ce2744f7c7fcbf7c962e3b701a5127cb9[m
+Merge: a6c74e8 a8e530f
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Tue May 25 10:22:26 2021 -0400
+
+    Merge branch 'master' of https://github.com/cwilkison/WP_App
+
+[33mcommit a6c74e858cbb64ce4b5e94bbdae4373672207355[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Tue May 25 10:21:58 2021 -0400
+
+    fixed up header links
+
+[33mcommit a8e530fb9424798e9199645d3e97b89714ec2647[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Tue May 25 10:02:26 2021 -0400
+
+    Update README.md
+
+[33mcommit 5d3ff3672acc013ab1c738a2d28f80adaca83fa6[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Tue May 25 09:59:58 2021 -0400
+
+    homepage carousel images picked
+
+[33mcommit 8652bd900291dd5c63008dbdb78873e2f7db8fc5[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Tue May 18 12:17:48 2021 -0400
+
+    fixed toolbar import
+
+[33mcommit 5d5d2dd9da8f5288ec4d0b989d4dd8de30c94030[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Tue May 18 12:03:16 2021 -0400
+
+    removed main script
+
+[33mcommit d54c38411b41d0b39a340eba77b030626b35ce2d[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Tue May 18 11:53:34 2021 -0400
+
+    2 errors for deployment left
+
+[33mcommit 1d6f702d35daadd20cda39f69b019ef6e8eb046b[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Tue May 18 11:50:12 2021 -0400
+
+    working on errors to deploy
+
+[33mcommit 03f16ae92c74c3776310f1f8b53d36e7cf59709f[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Tue May 18 10:26:58 2021 -0400
+
+    ready to fix warnings and errors
+
+[33mcommit 1a6fd221fd33c36584adbde7a18a38eeb857eb29[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Tue May 18 10:25:29 2021 -0400
+
+    disabled eslint
+
+[33mcommit 1c949219a2d3e216620e3a6abaad6eaae40ee9fb[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Tue May 18 10:17:48 2021 -0400
+
+    remove yarn, push for early deployment
+
+[33mcommit 9e78b57d66b3a41e2e5ee1d125000c00feb0c41f[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Mon May 17 14:16:14 2021 -0400
+
+    dressed up css for about page
+
+[33mcommit 3f434ce82ff27796a9c938a06e64c7b05af74ba7[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Mon May 17 12:58:43 2021 -0400
+
+    about us layout good waiting for design, fixed all warnings
+
+[33mcommit a94c153370e3b6dcba46c8f479c265a7a7366713[m
+Author: Cole Wilkison <wilkison.cole@gmail.com>
+Date:   Fri May 14 12:30:22 2021 -0400
+
+    first push
