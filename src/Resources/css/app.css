@@ -101,9 +101,6 @@ body {
     width: 100%;
     margin-left: -13%;
   }
-  .featured_image {
-    height: 100%;
-  }
 }
 
 @media only screen and (max-width: 500px) and (min-width: 400px) {
@@ -158,6 +155,12 @@ body {
 
   .featured_image {
     height: 50%;
+  }
+}
+
+@media only screen and (width: 768px) and (height: 1024px) {
+  .featured_image {
+    height: 100%;
   }
 }
 
