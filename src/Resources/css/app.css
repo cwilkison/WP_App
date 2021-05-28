@@ -47,15 +47,15 @@ body {
 }
 
 .featured_container .featured_action .tag.title {
-  font-size: 8em;
+  font-size: 7em;
   font-weight: 700;
   padding-top: -40vh;
 }
 
 .featured_container .featured_action .tag.low_title {
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 300;
-  margin-top: 55%;
+  margin-top: 45%;
   margin-left: 12%;
 }
 
