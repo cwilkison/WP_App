@@ -36,7 +36,7 @@ body {
 .featured_container .featured_action {
   position: absolute;
   top: 15%;
-  left: 25%;
+  left: 15%;
 }
 
 .featured_container .featured_action .tag {
@@ -55,7 +55,7 @@ body {
 .featured_container .featured_action .tag.low_title {
   font-size: 4em;
   font-weight: 300;
-  margin-top: 45%;
+  margin-top: 55%;
   margin-left: 12%;
 }
 
@@ -79,7 +79,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 769px) and (min-width: 5001px) {
+@media only screen and (max-width: 769px) and (min-width: 501px) {
   .featured_container .featured_action .tag.title {
     font-size: 5em;
     font-weight: 700;
