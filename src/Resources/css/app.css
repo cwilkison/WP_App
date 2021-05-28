@@ -101,6 +101,9 @@ body {
     width: 100%;
     margin-left: -13%;
   }
+  .featured_image {
+    height: 100%;
+  }
 }
 
 @media only screen and (max-width: 500px) and (min-width: 400px) {
