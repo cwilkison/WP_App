@@ -59,7 +59,7 @@ body {
   margin-left: 12%;
 }
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1025px) and (min-width: 770px) {
   .featured_container .featured_action .tag.title {
     font-size: 4.5em;
     font-weight: 700;
@@ -79,7 +79,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 769px) and (min-width: 5001px) {
   .featured_container .featured_action .tag.title {
     font-size: 5em;
     font-weight: 700;
@@ -148,7 +148,7 @@ body {
   }
 
   .featured_image {
-    height: 40%;
+    height: 50%;
   }
 }
 
