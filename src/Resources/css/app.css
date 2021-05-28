@@ -70,12 +70,11 @@ body {
   .featured_container .featured_action .tag.low_title {
     font-size: 3.5em;
     font-weight: 300;
-    margin-top: 60%;
+    margin-top: 40%;
   }
 
   .featured_action {
     width: 100%;
-    margin-left: -10%;
   }
 }
 
@@ -101,9 +100,10 @@ body {
 
 @media only screen and (max-width: 500px) and (min-width: 400px) {
   .featured_container .featured_action .tag.title {
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 700;
     padding-top: -40vh;
+    margin-left: 15%;
   }
 
   .featured_container .featured_action .tag.low_title {
@@ -117,7 +117,7 @@ body {
   .featured_action {
     padding-top: 10%;
     width: 100%;
-    margin-left: -28%;
+    margin-left: -20%;
   }
 
   .featured_image {
@@ -127,10 +127,11 @@ body {
 
 @media only screen and (max-width: 399px) and (min-width: 100px) {
   .featured_container .featured_action .tag.title {
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 700;
     padding-top: -40vh;
     text-align: center;
+    margin-left: 15%;
   }
 
   .featured_container .featured_action .tag.low_title {
@@ -144,7 +145,7 @@ body {
   .featured_action {
     padding-top: 10%;
     width: 100%;
-    margin-left: -28%;
+    margin-left: -20%;
   }
 
   .featured_image {
