@@ -1,1 +1,1 @@
-Production Deployed: https://wp-app.vercel.app/
+Production Deployed: https://master.d37ny04w3w3umz.amplifyapp.com/
