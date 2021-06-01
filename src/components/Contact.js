@@ -34,7 +34,7 @@ function Contact(props) {
     emailjs
       .send(
         "service_c38yadb",
-        "template_0s94nmj",
+        "template_7qju01g",
         template,
         "user_l4taf2huxQeeD2nhAS7Ub"
       )

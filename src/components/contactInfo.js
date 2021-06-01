@@ -22,7 +22,7 @@ export default function ContactInfo() {
       <div className="contactRow">
         <i className="fas fa-envelope fa-7x"></i>
         <h2 className="contactInfo">EMAIL</h2>
-        <p className="contactDetails">wilkison.tim@gmail.com</p>
+        <p className="contactDetails">wilkisontim@gmail.com</p>
       </div>
     </div>
   );
